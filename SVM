@@ -1,0 +1,53 @@
+TERMS:
+1.	VECTOR:
+A vector is a mathematical approach for expressing and organizing data.
+2.	CLASSIFICATION:
+Classification is a supervised machine learning method where the model tries to predict the correct label of a given input data.
+3.	REGRESSION:
+Regression in machine learning consists of mathematical methods that allow data scientists to predict a continuous outcome (y) based on the value of one or more predictor variables (x).
+4.	OPTIMAL HYPERPLANE:
+optimal hyperplane is the decision boundary that maximizes the distance of the margin between the class bounding hyperplanes (also called supporting hyperplanes).
+5.	KERNEL:
+Kernel is used due to a set of mathematical functions used in Support Vector Machine providing the window to manipulate the data.
+6.	SUPERVISED LEARNING:
+It is when you train a machine learning model using labelled data Support vector machines are a set of supervised learning methods used for classification, regression, and outliers detection.
+7.	UNSUPERVISED LEARNING:
+8.	DATA LABELING:
+9.	Data Labeling is the process of identifying raw data (images, text files, videos, etc.) and adding one or more meaningful and informative labels to provide context so that a machine learning model can learn from it. These also used in supervised learning. Unlabeled data doesn't contain additional information and is used in unsupervised learning.
+10.	DATA SET:
+Dataset is a collection of various types of data stored in a digital format. Datasets primarily consist of images, texts, audio, videos, numerical data points, etc., for solving various Artificial Intelligence challenges such as. Image or video classification.
+11.	DATA POINT:
+Values are organised in structures called datapoints.
+
+SUPPORT VECTOR MACHINE:
+	Support Vector Machine (SVM) is a supervised machine learning algorithm used for both classification and regression.
+	One of the main advantages of SVM is that it works well in high-dimensional spaces and it's relatively memory efficient. 
+	SVMs use a mathematical formulation to find the optimal hyperplane in a higher-dimensional space, often called the kernel space
+	The kernel function plays a critical role in SVMs, as it makes it possible to map the data from the original feature space to the kernel space
+
+Types of Kernel:
+	Linear Kernel
+	Polynomial Kernel
+	RBF Kernel
+	Sigmoid Kernel
+
+	SVMs are used in applications like handwriting recognition, intrusion detection, face detection, email classification, gene classification, and in web pages.
+	SVM uses a technique called the kernel trick to transform your data and then based on these transformations it finds an optimal boundary between the possible outputs.
+	Convolutional Neural Networks (CNNs) are typically better than Support Vector Machines (SVMs) for image classification.
+	SVM is generally faster and much easier to implement for classification compared to a neural network, since almost all major libraries have a SVM function.
+
+Types of SVM:
+	Simple SVM
+	Kernel SVM
+
+Pros:
+	Effective on datasets with multiple features, like financial or medical data.
+	Effective in cases where number of features is greater than the number of data points.
+	Uses a subset of training points in the decision function called support vectors which makes it memory efficient.
+	Different kernel functions can be specified for the decision function. You can use common kernels, but it's also possible to specify custom kernels.
+
+Cons:
+	If the number of features is a lot bigger than the number of data points, avoiding over-fitting when choosing kernel functions and regularization term is crucial.
+	SVMs don't directly provide probability estimates.
+	Works best on small sample sets because of its high training time.
+
